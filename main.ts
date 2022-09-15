@@ -115,6 +115,6 @@ basic.forever(function () {
         led.plot(4, 3)
     }
     if (unlocked == 4 && (xPosition > 4 || yPosition > 4)) {
-        basic.showNumber(3)
+        basic.showNumber(1)
     }
 })
